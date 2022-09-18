@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+body{
+	font-size:24px;
+	padding:20px;
+	justify-content: center; 
+	align-items: center;  
+	font-family:sans-serif;
+	background-color: #fafafa;
+	color: #333333;
+}
+
+.flex {
+	padding:10px;
+	display: flex;
+	/* 水平置中 */
+	justify-content: center;    
+	/* 垂直置中 */
+	align-items: center;        
+}
+fieldset {
+	margin:10px;
+	height:180px;
+	width:200px;
+}
+
+fieldset.red{
+	border:4px solid #b22222;
+	color:#b22222;
+}
+
+fieldset.yellow{
+	border:4px solid #daa520;
+	color:#daa520;
+}
+
+fieldset.green{
+	border:4px solid #556b2f;
+	color:#556b2f;
+}
+
+fieldset.all{
+	border:4px solid #2c2c34;
+	color:#2c2c34;
+}
+
+button{
+	margin:10px;
+    width: 200px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    color: #333333;
+    background-color: transparent;
+    transition: all .3s linear;
+	font-size:20px;
+}
+
+button.red{
+    border: 4px solid #b22222;
+}
+button.yellow{
+    border: 4px solid #daa520;
+}
+button.green{
+    border: 4px solid #556b2f;
+}
+
+button.all{
+    border: 4px solid #2c2c34;
+}
+
+button.red:hover{
+    background-color: #b22222;
+	border: 2px solid #b22222;
+    color: #fff;
+}
+
+button.yellow:hover{
+    background-color: #daa520;
+	border: 2px solid #daa520;
+    color: #fff;
+}
+
+button.green:hover{
+    background-color: #556b2f;
+	border: 2px solid #556b2f;
+    color: #fff;
+}
+
+button.all:hover{
+    background-color: #2c2c34;
+	border: 2px solid #2c2c34;
+    color: #fff;
+}
